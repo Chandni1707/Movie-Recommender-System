@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import pickle
 import pandas as pd
@@ -137,6 +136,7 @@ if st.button("Recommend"):
         st.markdown(f"<p class='overview'>📖 {overview if overview else 'No overview available'}</p>", unsafe_allow_html=True)
 
         st.markdown("</div>", unsafe_allow_html=True)
+
 =======
 import streamlit as st
 import pickle
